@@ -1,23 +1,8 @@
 {
-	"name" : "lukasprog/component-automation",
-	"description" : "Automation is a module used to executte cyclic operations based on laravel task scheduler. It serves as a replacement for setting up your own cron jobs to make it easier to manage. It provides an intuitive control interface on the admin level. Automation can run tasks every few minutes, hourly, daily or weekly - depending how you set it up. Scheduled data is stored in the system database.",
-	"homepage" : "https://github.com/antaresproject/automation",
-	"version" : "v1.0",
-	"authors" : [{
-			"name" : "£ukasz Cirut",
-			"email" : "contact@antaresproject.io"
-		}
-	],
-	"require" : {
-		"antaresproject/component-installer-plugin" : "*",
-		"php" : ">=7.0.1"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"Antares\\Automation\\" : "src/"
-		}
-	},
-	"extra" : {
-		"friendly-name" : "Automation"
-	}
+    "name": "lukasprog/component-automation",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "antaresproject/component-installer-plugin" : "*"
+    }
 }
