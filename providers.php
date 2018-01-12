@@ -1,5 +1,5 @@
 <?php
 
 return [
-    Antares\Automation\AutomationServiceProvider::class,
+    Antares\Automation\AutomationServiceProvider::class
 ];
