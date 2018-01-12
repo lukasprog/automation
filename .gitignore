@@ -18,3 +18,8 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+/.ptp-sync
+/.settings
+/tests/Processor/*.ptp-sync-folder
+/tests/Model/.ptp-sync-folder
+*.ptp-sync-folder

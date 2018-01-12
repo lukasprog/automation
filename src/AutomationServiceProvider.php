@@ -61,8 +61,7 @@ class AutomationServiceProvider extends ModuleServiceProvider
      * @return void
      */
     public function bootExtensionComponents()
-    {
-
+    {        
         $this->listenEvents();
         $this->attachMenu(AutomationLogsBreadcrumbMenu::class);
     }
